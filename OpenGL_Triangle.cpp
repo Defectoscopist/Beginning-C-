@@ -149,7 +149,6 @@ int main()
         
         //-устанавливаем указатели на вершинные атрибуты
         glVertexAttribPointer(0, 3, GL_FLOAT, GL_FALSE, 3 * sizeof(GLfloat), (GLvoid*)0);
-        glEnableVertexAttribArray(0);
     
         //-передаем вершинному атрибуту позицию аргумента
         glEnableVertexAttribArray(0);
