@@ -1,1 +1,3 @@
-# Beginning-C-
+# Beginning-C-/*
+My first steps of software development
+*/
