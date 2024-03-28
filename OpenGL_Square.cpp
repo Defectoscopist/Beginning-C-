@@ -45,7 +45,7 @@ int main()
         glfwWindowHint(GLFW_RESIZABLE, GL_FALSE);
         
     // создаем объект окна
-    GLFWwindow* window = glfwCreateWindow(800, 600, "Треугольник", nullptr, nullptr);
+    GLFWwindow* window = glfwCreateWindow(800, 600, "Квадрат", nullptr, nullptr);
     if (window == nullptr) {
         std::cout << "Failed to create GLFW Window" << std::endl;
         glfwTerminate();
